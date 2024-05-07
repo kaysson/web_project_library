@@ -333,29 +333,33 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: white;
-  padding-top: 80px;
-  padding-right: 60px;
-  padding-left: 60px;
-  padding-bottom: 80px;
+  padding: 80px 60px;
 }
 
 .footer__columns {
-  position: static;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.footer__column {
+  flex: 1;
 }
 
 .footer__column_content_hours {
+  margin-top: 10px;
 }
 
 .footer__column_content_social {
+  margin-top: 10px;
 }
 
 .footer__logo {
-  right: auto;
+  max-width: 100px;
 }
 
 .footer__column-heading {
-  top: auto;
-  right: 50px;
+  font-weight: bold;
 }
 
 .footer__list {
@@ -365,6 +369,7 @@
 }
 
 .footer__list-item {
+  margin-bottom: 5px;
 }
 
 .footer__column-link {
@@ -377,7 +382,6 @@
 }
 
 .footer__copyright {
-  display: flex;
   margin-top: auto;
   text-align: left;
 }
