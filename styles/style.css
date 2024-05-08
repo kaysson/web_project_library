@@ -329,44 +329,35 @@
 }
 
 .footer {
-  display: flex;
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: white;
-  padding: 80px 60px;
+  display: flex;
 }
 
 .footer__columns {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
 }
 
 .footer__column_content_hours {
-  margin-top: 10px;
 }
 
 .footer__column_content_social {
-  margin-top: 10px;
 }
 
 .footer__logo {
-  max-width: 100px;
 }
 
 .footer__column-heading {
-  font-weight: bold;
 }
 
 .footer__list {
+  /* O código abaixo remove os estilos do navegador padrão para listas */
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
 .footer__list-item {
-  margin-bottom: 5px;
 }
 
 .footer__column-link {
@@ -375,10 +366,7 @@
 }
 
 .footer__social-icon {
-  display: flex;
 }
 
 .footer__copyright {
-  margin-top: auto;
-  text-align: left;
 }
