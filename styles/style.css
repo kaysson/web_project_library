@@ -338,12 +338,9 @@
 
 .footer__columns {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
-}
-.footer__column {
-  flex: 1;
 }
 
 .footer__column_content_hours {
