@@ -305,7 +305,7 @@
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
-  column-gap: normal;
+  column-gap: 40px;
 }
 
 .step {
@@ -333,7 +333,7 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: white;
-  padding: 80px 60px 80px;
+  padding: 60px 80px;
 }
 
 .footer__columns {
@@ -374,17 +374,15 @@
 }
 
 .footer__list-item {
-  padding-top: 20px;
-  padding-bottom: 16px;
-  margin-bottom: auto;
+  margin-bottom: 20px 16px;
 }
 
 .footer__column-link {
   color: white;
   text-decoration: none;
-  display: contents;
-  align-items: flex-end;
-  column-gap: normal;
+  display: flex;
+  align-items: stretch;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
@@ -394,5 +392,5 @@
 
 .footer__copyright {
   margin: 0;
-  margin-top: auto;
+  margin-top: 100px;
 }
