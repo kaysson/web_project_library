@@ -354,7 +354,8 @@
 }
 
 .footer__logo {
-  size: 58px 80px;
+  width: 58px;
+  height: 80px;
 }
 
 .footer__column-heading {
@@ -371,6 +372,8 @@
 }
 
 .footer__list-item {
+  padding-top: 20px;
+  padding-bottom: 16px;
 }
 
 .footer__column-link {
@@ -379,7 +382,8 @@
 }
 
 .footer__social-icon {
-  size: 16px 16px;
+  width: 20px;
+  height: 16px;
 }
 
 .footer__copyright {
